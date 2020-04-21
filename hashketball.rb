@@ -125,14 +125,16 @@ end
 
 #### Notes
 
-# hash_Name = {} doesnt work? neither does hash_Name = Hash.new, I don't know why neither of them are working, do I even know how to use a computer?
+#1.) hash_Name = {} doesnt work? neither does hash_Name = Hash.new, I don't know why neither of them are working, do I even know how to use a computer?
 
-# The test is worded in a very tricky way, they want you to -RETURN- a hash, meaning they want an anonymous hash returned from a method named game_hash, is that even legal? 
+#2.) The test is worded in a very tricky way, they want you to -RETURN- a hash, meaning they want an anonymous hash returned from a method named game_hash, is that even legal? 
 
-# I'm blind it says: There is one "Method" in this lab to implement. Meaning this was implied. I just can't read properly.
+#3.) I'm blind it says: There is one "Method" in this lab to implement. Meaning this was implied. I just can't read properly.
 
-# The data from the readme is different then the tests??????????
+#4.) The data from the readme is different then the tests??????????
 
-# This test is nothing compared to the JavaScript objects test. 5:37am timestamp for later kicking myself for stroking my ego
+#5.) This test is nothing compared to the JavaScript objects test. 5:37am timestamp for later kicking myself for stroking my ego
 
-
+# How to improve on this:
+#   definitely need abstraction for the player list, it's really hard to read and can be done better.
+#   Can't really add comments, everything is organized as is, I honestly need to take some courses on proper commenting skills.
