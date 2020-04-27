@@ -46,7 +46,7 @@ describe 'hashketball' do
   describe '#game_hash' do
     let(:top_level_keys) { [:home, :away] }
     let(:team_level_keys) { [:team_name, :colors, :players] }
-
+ 
     it 'returns a hash' do
       expect(game_hash).to be_a(Hash)
     end
